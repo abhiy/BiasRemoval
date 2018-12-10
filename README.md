@@ -19,3 +19,8 @@ This python notebook contains the implementation to load a model and test it on 
 * gen\_list\_extreme\_biased.csv: For the dataset BD, gender labels.
 * age\_list\_extreme\_biased.csv: For the dataset BD, age labels.
 
+## Data Scraping
+The final data and CSV files can be directly used from SportsDataScraper/SportsDataScraper/img\_download/FinalData/. 
+If you wish to replay the scraping, run the individual spiders and pipe it to the appropriate files. Next, run the image cleaners and resizers for each data source followed by the face\_prediction scripts. 
+You will need to have a microsoft account and change the APItoken with your generated token.
+
